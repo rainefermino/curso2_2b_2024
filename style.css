@@ -8,21 +8,21 @@
 }
 
 body {
-  background-color: var(--cor-de-fundo);
-  color: var(--branco-principal);
-  font-family: var(--fonte-principal);
-  font-size: 16px;
-  font-weight: 400;
+  background-color: var(--cor-de-fundo);#cor de fundo
+  color: var(--branco-principal);#cor da fonte 
+  font-family: var(--fonte-principal);#estilo de fontes
+  font-size: 16px;#tamanho da fonte
+  font-weight: 400;#negrito
 }
 
-* {
-  margin: 0;
-  padding: 0;
+* {#seletoruniversal
+  margin: 0;#tamanho da margem 
+  padding: 0;#espaçamento interno
 }
 
 .principal {
-  background-image: url("img/Background.png");
-  background-repeat: no-repeat;
+  background-image: url("img/Background.png");#imagem como plano de fundo 
+  background-repeat: no-repeat;#imagem repetir apena suma vez 
   background-size: contain;
   align-items: center;
   text-align: center;
